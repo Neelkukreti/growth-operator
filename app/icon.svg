@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background: rounded square -->
+  <rect width="32" height="32" rx="7" fill="#2563eb"/>
+
+  <!-- Growth chart line -->
+  <path d="M6 23 L11 17 L16 19.5 L22 12 L26 9" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.6"/>
+
+  <!-- Nodes on the line -->
+  <circle cx="6"  cy="23"   r="2.2" fill="white"/>
+  <circle cx="11" cy="17"   r="2.2" fill="white"/>
+  <circle cx="16" cy="19.5" r="2.2" fill="white" opacity="0.7"/>
+  <circle cx="22" cy="12"   r="2.2" fill="white"/>
+  <circle cx="26" cy="9"    r="2.5" fill="white"/>
+
+  <!-- Small upward arrow at tip -->
+  <path d="M24 7 L26 9 L28 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
